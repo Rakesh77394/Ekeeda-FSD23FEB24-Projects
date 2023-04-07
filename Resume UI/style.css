@@ -1,0 +1,249 @@
+@import url('https:fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_side
+{
+    position: relative;
+    background: #032e42;
+    padding: 40px;
+}
+.profiletext
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profiletext .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profiletext .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 100;
+    height: 100%;
+    object-fit: cover;
+}
+.profiletext h2
+{
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profiletext h2 span
+{
+    font-size: 0.7em;
+    font-weight: 250;
+}
+.contactinfo
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.contactinfo ul
+{
+    position: relative;
+}
+.contactinfo ul li
+{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+.contactinfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #95bacb;
+}
+.contactinfo ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+.contactinfo.education li
+{
+    margin-bottom: 15px; 
+}
+.contactinfo.education h5
+{
+    color: #5d99ab;
+    font-weight: 500;
+}
+.contactinfo.education h4:nth-child(2)
+{
+    color: #fff;
+    font-weight: 500;
+}
+.contactinfo.education h4
+{
+    color:#c2d9e4;
+    font-weight: 300;
+}
+.contactinfo.language .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.contactinfo.language .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #5d99ab;
+}
+.interest
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.interest ul
+{
+    position: relative;
+}
+.interest ul li
+{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+.interest ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #95bacb;
+}
+.interest ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+.container .right_side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+margin-bottom: 0;
+}
+.title2
+{
+    color:#003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .year_company
+{
+    min-width: 150px;
+}
+.about .box .year_company h5
+{
+    text-transform: uppercase;
+    color: #4a5053;
+    font-weight: 600;
+}
+.about .box .text h4
+{
+text-transform: uppercase;
+color: #0388a2;
+font-size: 16px;
+}
+.about_skills .text p
+{
+color: #172023;
+}
+.about_achievement .title2
+{
+    color:#003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-block-start: 10px;
+}
+.about_achievement .text
+{
+margin-left: 20px;
+color: #03171b;
+}
+
+
+
